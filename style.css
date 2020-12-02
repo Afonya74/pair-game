@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(12, 213, 240);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: rgb(12, 213, 240);
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 130px;
+    margin: 1rem;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+    background-color: white;
+}
